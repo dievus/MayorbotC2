@@ -1,2 +1,5 @@
 # MayorbotC2
-My attempt at weaponizing Discord.
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M03Q2JN)
+
