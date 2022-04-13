@@ -21,7 +21,7 @@ This is set up to work on Windows only currently. Linux will come after I lose t
 You can Google this one
 
 ##### Creating the Discord Bot
-This article and the included videos is great - https://www.freecodecamp.org/news/create-a-discord-bot-with-python/. Once done, make sure to replace the token in the Python file with the token for your bot.
+This article and the included videos is great - https://www.freecodecamp.org/news/create-a-discord-bot-with-python/. Once done, make sure to replace the token in the Python file with the token for your bot. You will also have to get the channel ID that you wish to use on the Discord server, and put it in the channel variable near the top.
 
 ##### Convert MayorbotC2.py to an Executable
 There are different ways to do this, either with Pyinstaller, or Auto Py to EXE. Google again.
