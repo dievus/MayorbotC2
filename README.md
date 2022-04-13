@@ -7,3 +7,4 @@
   <img src="https://github.com/dievus/MayorbotC2/blob/main/images/mayorbotc2.png" />
 </p>
 
+##### This is my Discord C2 bot. There are many like it, but this one is mine.
